@@ -1,0 +1,57 @@
+body {
+    background-color: hsl(212, 45%, 89%);
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+    width: 290px;
+    height: 460px;
+    border-color: white;
+    border-style: solid;
+    border-radius: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    box-shadow: 0 0 20px -10px;
+}
+
+.box {
+    width: 290;
+    display: flex;
+    justify-content: center;
+}
+
+#qr-code {
+    position: absolute;
+    z-index: 2;
+    margin-top: 8px;
+    border-color: white;
+    border-style: solid;
+    border-radius: 15px;
+}
+
+#heading {
+    position: absolute;
+    z-index: 3;
+    margin-top: 300px;
+    font-family: outfit;
+    text-align: center;
+    margin-left: 25px;
+    margin-right: 25px;
+    letter-spacing: 1px;
+    font-size: larger;
+}
+
+p {
+    margin-top: 360px;
+    text-align: center;
+    font-family: outfit;
+    font-size: 14px;
+    color: gray;
+    margin-left: 25px;
+    margin-right: 25px;
+    opacity: 0.9;
+}
